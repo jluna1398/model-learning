@@ -20,29 +20,16 @@ import streamlit as st
 from streamlit.hello.utils import show_code
 
 
-def animation_demo() -> None:
 
+st.set_page_config(page_title="Linear Regression")
+st.markdown("# Linear Regression")
 
-
-
-
-
-
-    # Streamlit widgets automatically run the script from top to bottom. Since
-    # this button is not connected to any other logic, it just causes a plain
-    # rerun.
-    st.button("Re-run")
-
-
-st.set_page_config(page_title="Animation Demo", page_icon="📹")
-st.markdown("# Animation Demo")
-st.sidebar.header("Animation Demo")
 st.write(
-    """This app shows how you can use Streamlit to build cool animations.
-It displays an animated fractal based on the the Julia Set. Use the slider
-to tune different parameters."""
+    """
+    In this section we are performing linear regression to the famous marketing datase. 
+    As a Bussines Inetelligence / Data Ananlyst there is a good chance that we are going to encounter 
+    similar problems like this. 
+"""
 )
 
-animation_demo()
 
-show_code(animation_demo)
