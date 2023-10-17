@@ -75,3 +75,9 @@ chart = alt.Chart(ad_data).mark_point().encode(
 st.altair_chart(
     chart,  theme="streamlit", use_container_width=True
 )
+
+
+##########################
+
+Boston = load_data("Boston")
+Boston.columns
