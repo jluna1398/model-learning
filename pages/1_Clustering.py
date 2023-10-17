@@ -25,8 +25,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn import decomposition
-import altair as alt
-
+import seaborn as sns 
 
 
 
