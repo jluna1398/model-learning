@@ -27,7 +27,7 @@ def run():
     st.write("# Welcome to my portfolio 👋")
     st.subheader("My name is Jose")
 
-    st.sidebar.success("Select a demo above.")
+
 
 
 
