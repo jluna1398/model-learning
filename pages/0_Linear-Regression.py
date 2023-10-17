@@ -21,8 +21,8 @@ from streamlit.hello.utils import show_code
 import pandas as pd
 import numpy as np
 import altair as alt
-
-
+from ISLP import load_data
+import statsmodels.api as sm
 
 
 st.set_page_config(page_title="Linear Regression")
