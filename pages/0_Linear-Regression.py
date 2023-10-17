@@ -27,7 +27,7 @@ import altair as alt
 
 st.set_page_config(page_title="Linear Regression")
 st.image('images/reg.png')
-st.markdown("# Linear Regression")
+
 
 st.write(
     """
