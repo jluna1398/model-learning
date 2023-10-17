@@ -23,8 +23,9 @@ def run():
         page_title="Hello",
         page_icon="👋",
     )
-    st.title("Data Science")
-    st.title("For")
+    st.title("Data Science For Marketing Analytics")
+    st.image('images/mk.png')
+
 
 
 
