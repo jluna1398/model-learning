@@ -37,4 +37,10 @@ st.write("""
     $$Y = mx+b$$
 """)
 
+st.write("""
+    ### Problmes with linear regression. 
+    * Linear assumption
+    * Outliers
+    
+""")
 
