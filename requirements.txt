@@ -13,3 +13,4 @@ streamlit-option-menu
 tensorflow
 yfinance
 altair
+plotly==5.17.0
