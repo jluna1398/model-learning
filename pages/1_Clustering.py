@@ -21,7 +21,7 @@ from streamlit.hello.utils import show_code
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn import decomposition
