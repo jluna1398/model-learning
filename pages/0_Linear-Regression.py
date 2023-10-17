@@ -20,7 +20,7 @@ import streamlit as st
 from streamlit.hello.utils import show_code
 import pandas as pd
 import numpy as np
-import seaborn as sns
+import altair as alt
 
 
 

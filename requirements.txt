@@ -12,3 +12,4 @@ streamlit
 streamlit-option-menu
 tensorflow
 yfinance
+altair
