@@ -23,9 +23,9 @@ def run():
         page_title="Hello",
         page_icon="👋",
     )
-    st.title("Jose Luna")
-    st.write("# Welcome to my portfolio 👋")
-    st.subheader("My name is Jose")
+    st.title("Data Science")
+    st.title("For")
+
 
 
 
