@@ -19,6 +19,14 @@ import numpy as np
 import streamlit as st
 from streamlit.hello.utils import show_code
 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+from sklearn import decomposition
+import altair as alt
+
 
 
 
@@ -40,5 +48,9 @@ st.write(
     
 """
 )
+
+
+mall_data = pd.read_csv('data/Mall_Customers.csv')
+st.dataframe(mall_data.head())
 
 
