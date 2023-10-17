@@ -1,3 +1,13 @@
 seaborn
 ISLS
 sklearn
+numpy
+pandas
+pandas-datareader
+scipy
+statsmodels
+scikit-learn
+streamlit
+streamlit-option-menu
+altair
+statsmodels
