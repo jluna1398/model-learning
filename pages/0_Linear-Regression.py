@@ -18,6 +18,10 @@ import numpy as np
 
 import streamlit as st
 from streamlit.hello.utils import show_code
+import pandas as pd
+import numpy as np
+import seaborn as sns
+
 
 
 
@@ -44,3 +48,5 @@ st.write("""
     
 """)
 
+ad_data = pd.read_csv('../data/Advertising.csv')
+st.dataframe(ad_data.head())
