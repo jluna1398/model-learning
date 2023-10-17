@@ -26,6 +26,7 @@ import altair as alt
 
 
 st.set_page_config(page_title="Linear Regression")
+st.image('images/reg.png')
 st.markdown("# Linear Regression")
 
 st.write(
@@ -40,6 +41,22 @@ st.markdown("### What is Linear Regression")
 st.write("""
     $$Y = mx+b$$
 """)
+
+st.write("""
+We are xploring this dataset to see if
+* Is there a relationship betwen sales and adverising? 
+* How strong is the relationship? 
+* Whcih media is assocaited with sales?
+* How large is the association between each medium
+* How accuralty can we predict future sales?
+* Is the relatiionship linear? 
+* Is there synergies 
+
+
+""")
+
+
+
 
 st.write("""
     ### Problmes with linear regression. 
