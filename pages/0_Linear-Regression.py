@@ -32,4 +32,9 @@ st.write(
 """
 )
 
+st.markdown("## What is Linear Regression")
+st.write("""
+    $$Y = mx+b$$
+""")
+
 
