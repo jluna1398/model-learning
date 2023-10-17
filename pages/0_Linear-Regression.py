@@ -21,6 +21,7 @@ from streamlit.hello.utils import show_code
 import pandas as pd
 import numpy as np
 import altair as alt
+import seaborn as sns
 
 
 
@@ -50,3 +51,4 @@ st.write("""
 
 ad_data = pd.read_csv('data/Advertising.csv').set_index("Unnamed: 0")
 st.dataframe(ad_data.head())
+alt.Chart().mark_point()
