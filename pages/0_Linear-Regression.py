@@ -50,7 +50,8 @@ st.write("""
 
 ad_data = pd.read_csv('data/Advertising.csv').set_index("Unnamed: 0")
 st.dataframe(ad_data.head())
-alt.Chart(ad_data).mark_point().encode(
+st.plotly_chart(alt.Chart(ad_data).mark_point().encode(
     x='TV',
     y='sales'
+)
 )
