@@ -48,5 +48,5 @@ st.write("""
     
 """)
 
-ad_data = pd.read_csv('../data/Advertising.csv')
+ad_data = pd.read_csv('data/Advertising.csv')
 st.dataframe(ad_data.head())
